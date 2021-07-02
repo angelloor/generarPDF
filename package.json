@@ -1,0 +1,43 @@
+{
+	"name": "cita",
+	"version": "1.0.0",
+	"description": "cita",
+	"main": "server.js",
+	"scripts": {
+		"server-dev": "nodemon src/index.js",
+		"server-pro": "nodemon dist/bundle.js",
+		"build": "webpack --mode production"
+	},
+	"keywords": [],
+	"author": "Angel Loor",
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"easyqrcodejs-nodejs": "^4.3.2",
+		"express": "^4.17.1",
+		"image-to-base64": "^2.2.0",
+		"nodemon": "^2.0.7",
+		"puppeteer": "^10.0.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.13.16",
+		"babel-loader": "^8.2.2",
+		"browserify-zlib": "^0.2.0",
+		"buffer": "^6.0.3",
+		"crypto-browserify": "^3.12.0",
+		"dotenv-webpack": "^7.0.2",
+		"fs": "*",
+		"http": "*",
+		"https": "^1.0.0",
+		"path": "^0.12.7",
+		"path-browserify": "^1.0.1",
+		"stream": "^0.0.2",
+		"stream-browserify": "^3.0.0",
+		"stream-http": "^3.2.0",
+		"url": "^0.11.0",
+		"util": "^0.10.4",
+		"webpack": "^5.35.0",
+		"webpack-cli": "^4.6.0",
+		"webpack-node-externals": "^3.0.0"
+	}
+}
